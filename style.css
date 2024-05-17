@@ -1,0 +1,161 @@
+body {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: rgba(0, 38, 255, 0.384);
+  padding: 40px 0px 40px 25px;
+}
+
+.link-header {
+  background-image: linear-gradient(180deg, #2210cc 0%, aqua 9.9%, rgb(0, 211, 211) 88.54%, #2210cc 100%);
+  padding: 5px 10px 5px 10px;
+  font-size: 36px;
+  text-decoration: none;
+  color: black
+}
+
+.link-header:hover {
+  background-image: linear-gradient(180deg, #6e1aff 0%, #a4a6ff 9.9%, #8486ff 88.54%, #5d00ff 100%);
+  transition: 0.01s linear;
+  color: blue;
+}
+
+.link-header:focus {
+  color: purple;
+  background-image: linear-gradient(180deg, #5d00ff 0%, #b4b5ff 9.9%, #9d9eff 88.54%, #5d00ff 100%);
+}
+
+main {
+  margin: 0 auto;
+}
+
+.description {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: aqua;
+  font-size: 96px;
+  text-shadow: 0px 20px 10px rgba(29, 115, 115, 0.38);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.container-nav {
+  position: relative;
+}
+
+.link-mysites {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  position: absolute;
+  top: 90px;
+  left: 295px;
+}
+
+.link-mysites:hover {
+  color: black;
+  transition: 0.5s linear;
+}
+
+.link-info {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  position: absolute;
+  left: 290px;
+  top: 140px;
+  width: 40px;
+}
+
+.link-info:hover {
+  color: black;
+  transition: 0.5s linear;
+}
+
+p {
+  font-size: 24px;
+  margin-left: 60px;
+}
+
+ul {
+  font-size: 24px;
+  list-style: none;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+ol {
+  font-size: 24px;
+  margin-left: 60px;
+}
+
+.text-big {
+  font-size: 48px;
+  margin-left: 60px;
+}
+  
+.link-text {
+  color: #0000FF;
+  text-decoration: none;
+  border-bottom: 2px solid #0000FF;
+}
+
+h2 {
+  color: #006363;
+  font-size: 64px;
+  margin-left: 60px;
+}
+
+footer {
+  padding: 65px 0px 80px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #0000ff2d ;
+}
+
+.container-links {
+  width: 120px;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+footer img {
+  display: block;
+}
+
+.social {
+  display: inline-block;
+  margin: 30px;
+}
+
+header h1 {
+  text-align: center;
+  color: Aqua;
+  font-size: 69px;
+  text-shadow: 16px 9px 10px rgba(0, 0, 0, 0.164);
+  font-family: Calibri;
+}
